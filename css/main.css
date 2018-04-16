@@ -1,0 +1,196 @@
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif!important;
+}
+.pd-23{
+	padding: 25% 5% 10% 5%;
+}
+
+.pd-15{
+	padding: 19% 5% 5% 5%;
+}
+
+h3
+{
+	color: white;
+	padding: 23% 5% ;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+.width-100{
+	width: 100%;
+}
+.p-font{
+	font-size: 16px;
+}
+.text-4m{
+	font-size:4em; 
+}
+.text-2m{
+	font-size:3em; 
+}
+.titulo-frase{
+	color:#454553;
+	font-weight: 600;
+	font-size: 55px;
+}
+.play{
+	float: right;
+	width: 200px;
+}
+.store{
+	float: left;
+	width: 200px;
+}
+.iphone{
+	margin-top: 19%;
+}
+.logo{
+	width: 250px;
+	margin-left: 40%;
+}
+.pd-6{
+	padding: 21% 6% 7% 0%;
+}
+a .fa{
+	color: white;
+	font-size: 3em;
+	margin: 0% 0%;
+}
+.formulario{
+	margin-left: 20%;
+}
+/*h1{
+	color: white;
+	font-size: 5em;
+	font-family: 'Indie Flower', cursive;
+}*/
+
+.pd-23{
+	padding: 25% 5% 10% 5%;
+}
+
+.pd-15{
+	padding: 23% 5% 5% 5%;
+}
+.pd-28{
+	padding: 28% 5% 5% 5%;
+}
+.pd-flecha{
+	    padding: 18% 6% 0% 6%;
+}
+h3
+{
+	color: white;
+	padding: 23% 5% ;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+.iphone{
+	margin-top: 19%;
+}
+
+.logo{
+	width: 20%;	
+}
+
+.descargar{
+	width: 80%;
+}
+
+.celular{
+	width: 80%;
+}
+
+a .fa{
+	color: white;
+	font-size: 3em;
+	margin: 0% 0%;
+}
+.soyimagen{
+	background:url("../imgPB/backoo.png");
+
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 479px) {
+	h1{
+		font-size: 3em;
+	}
+	.logo{
+		width: 30%;	
+	}
+	.celular{
+		width: 30%;
+	}
+	.fp-controlArrow.fp-next {
+	    right: 15px;
+	    border-width: 13px 0px 13px 19px;
+	    border-color: transparent transparent transparent #FFF;
+	}
+	.fp-controlArrow.fp-prev {
+	    right: 15px;
+	    border-width: 13px 0px 13px 19px;
+	    border-color: transparent transparent transparent #FFF;
+	}
+	.pd-23{
+		padding: 15% 5% 5% 5%;
+	}
+
+	.pd-15{
+		padding: 15% 5% 0% 5%;
+	}
+	.iphone{
+		margin-top: 5%;
+	}
+}
+
+@media (min-width:480px) and (max-width: 767px)  {
+	h1{
+		font-size: 3em;
+	}
+	.logo{
+		width: 30%;	
+	}
+	.descargar{
+		width: 60%;
+	}
+	.celular{
+		width: 20%;
+	}
+	.fp-controlArrow.fp-next {
+	    right: 15px;
+	    border-width: 16px 0px 16px 21px;
+	    border-color: transparent transparent transparent #FFF;
+	}
+	.fp-controlArrow.fp-prev {
+	    right: 15px;
+	    border-width: 16px 0px 16px 21px;
+	    border-color: transparent transparent transparent #FFF;
+	}
+	.pd-23{
+		padding: 15% 5% 5% 5%;
+	}
+
+	.pd-15{
+		padding: 15% 5% 0% 5%;
+	}
+	.iphone{
+		margin-top: 5%;
+	}
+} 
+
+@media (min-width:768px) and (max-width: 980px)  {
+	h1{
+		font-size: 4em;
+	}
+	.logo{
+		width: 20%;	
+	}
+} 
