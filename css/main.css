@@ -26,10 +26,10 @@ h3
 	font-size: 16px;
 }
 .text-4m{
-	font-size:4em; 
+	font-size:4em;
 }
 .text-2m{
-	font-size:3em; 
+	font-size:3em;
 }
 .titulo-frase{
 	color:#454553;
@@ -93,7 +93,7 @@ h3
 }
 
 .logo{
-	width: 20%;	
+	width: 20%;
 }
 
 .descargar{
@@ -119,25 +119,25 @@ a .fa{
 }
 
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 500px) {
 	h1{
 		font-size: 3em;
 	}
 	.logo{
-		width: 30%;	
+		width: 30%;
 	}
 	.celular{
-		width: 30%;
+		width: 70%;
 	}
 	.fp-controlArrow.fp-next {
 	    right: 15px;
 	    border-width: 13px 0px 13px 19px;
-	    border-color: transparent transparent transparent #FFF;
+	    border-color: transparent transparent transparent #f400a1;
 	}
 	.fp-controlArrow.fp-prev {
 	    right: 15px;
 	    border-width: 13px 0px 13px 19px;
-	    border-color: transparent transparent transparent #FFF;
+	    border-color: transparent transparent transparent #f400a1;
 	}
 	.pd-23{
 		padding: 15% 5% 5% 5%;
@@ -149,6 +149,40 @@ a .fa{
 	.iphone{
 		margin-top: 5%;
 	}
+	.play{
+		float: inherit;
+	width: 40%;
+	margin-bottom: 3%;
+		}
+		.store{
+			float: inherit;
+    width: 40%;
+
+			}
+			.h6-bum{
+				    margin: 3%;
+			}
+			.titulo-frase{
+				margin-top: 48%;
+font-size: 20px;
+			}
+			.text-2m{
+				font-size: 22px;
+			}
+			.p-font{
+				margin-top:2%;
+			}
+			.text-4m{
+				font-size: 22px;
+			}
+			.fp-tableCell {
+    display: table-cell;
+    vertical-align: sub!important;
+    height: 100%;
+}
+.pd-28 {
+    padding: 10% 5% 5% 5%;
+}
 }
 
 @media (min-width:480px) and (max-width: 767px)  {
@@ -156,7 +190,7 @@ a .fa{
 		font-size: 3em;
 	}
 	.logo{
-		width: 30%;	
+		width: 30%;
 	}
 	.descargar{
 		width: 60%;
@@ -184,13 +218,13 @@ a .fa{
 	.iphone{
 		margin-top: 5%;
 	}
-} 
+}
 
 @media (min-width:768px) and (max-width: 980px)  {
 	h1{
 		font-size: 4em;
 	}
 	.logo{
-		width: 20%;	
+		width: 20%;
 	}
-} 
+}
